@@ -91,6 +91,7 @@ export default function Home() {
               { title: "Company", items: [{ label: "About", href: "about" }, { label: "Contact", href: "contact" }] },
             ]}
             copyrightText="© 2025 AI SaaS"
+            onPrivacyClick={() => console.log('Privacy Policy Clicked')}
             className="bg-blue-50 text-gray-900"
           />
         </div>
